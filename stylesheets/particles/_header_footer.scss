@@ -1,0 +1,134 @@
+.header{
+    height:.44rem;
+    width:100%;
+    background: #07b3ef;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 .14rem;
+    box-sizing:border-box;
+    h1{
+        font-weight:normal; 
+        font-size:.2rem;
+        color:#fff;
+    }
+    .right,.left{
+        color:#fff;
+    }
+    i{
+        font-size:.16rem;
+    }
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height:.48rem;
+    width:100%;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    background:#fff;
+    a{
+        color:#ccc;
+        text-decoration: none;
+        text-align:center;
+        i{
+            font-size:.2rem;
+            display:block;
+        } 
+        &.active{
+            color: $base-color;
+        } 
+    }
+    
+}
+.banner{
+    height:2.1rem;
+    img{
+        width:100%;
+        height:100%;
+    }
+    .swiper-pagination-bullet{
+        width:.04rem;
+        height:.04rem;
+    }
+}
+.class-list{
+    display:flex;
+    a{
+        flex:1;
+        text-align:center;
+        padding:.1rem 0;
+        img{
+            width:.36rem;
+            height:.36rem;
+        }
+        span{
+           display:block; 
+        }
+    }
+}
+
+.item-box{
+    background: #fff;
+    .item-head{
+        display:flex;
+        justify-content:space-between;
+        padding:0 .2rem;
+        height:.64rem;
+        border-bottom: 1px solid rgb(245, 245, 245);
+        border-top:.2rem solid rgb(245, 245, 245);
+        line-height:.44rem;
+        font-size:.16rem;
+    }
+    .item-body{
+        min-height:1.15rem;
+        font-size:.16rem;        
+    }
+}
+.item-sim{
+    display:inline-block;
+    width:.93rem;
+    text-align:center;
+    padding-top:.2rem;
+    img{
+        width:.6rem;
+        height:.6rem;
+    }
+    span{
+        display:block;
+    }
+}
+.item-cen{
+    .item-cenone{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height:.88rem;
+        padding:0 .2rem;
+        img{
+            width:.6rem;
+            height:.6rem;
+        }
+        div{
+            width:2.14rem;
+            span{
+                display:block;
+                padding:0 .1rem;
+                font-size:.1rem;
+                word-break: keep-all;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: .2rem;
+            }
+        }
+        button{
+            width:.53rem;
+            height:.25rem;
+            background:#fff;
+            border:.01rem solid red;
+        }
+    }
+}
